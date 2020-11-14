@@ -5,7 +5,7 @@
         <h1 class="text-center text white">Log in</h1>
         <%= form_for :session, url: login_path do |f| %>
           <div class="form-group">
-            <%= f.lebel :email, class: "text-white" %>
+            <%= f.label :email, class: "text-white" %>
             <%= f.text_field :email, class: "form-control" %>
           </div>
           <div class="form-group">
